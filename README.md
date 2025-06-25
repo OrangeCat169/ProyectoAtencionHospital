@@ -94,4 +94,4 @@ Este sistema busca digitalizar la atención, mostrar claramente en qué nivel es
 
 2.- Abrir desde Visual Studio Code la carpeta BibliotecaDigitalPatrones.
 
-3.- Luego correr la clase BibliotecaApp.java y utilizar el menu que aparecera en la consola.
+3.- Luego correr la clase app.java y utilizar el menu que aparecera en la consola.
