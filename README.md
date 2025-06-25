@@ -36,7 +36,7 @@ Este sistema busca digitalizar la atención, mostrar claramente en qué nivel es
   Evita acoplar el código cliente a la creación directa de pantallas. Si mañana se quisiera mostrar la pantalla de otra forma (por ejemplo, en una interfaz gráfica o web), solo se cambia la fábrica.
 
 - **Cómo**:  
-  La clase `DisplayFactory` centraliza la creación de pantallas, exponiendo un método estático `createLevelDisplay(int level)` que encapsula el `new LevelDisplay(...)`.
+  La clase `DisplayFactory` centraliza la creación de pantallas, exponiendo un método estático `createLevelDisplay(int level)` que encapsula el `new LevelDisplay()`.
 
 - **Dónde**:  
   - Clase: `ui/DisplayFactory.java`  
@@ -54,7 +54,7 @@ Este sistema busca digitalizar la atención, mostrar claramente en qué nivel es
 
 - **Dónde**:  
   - Clase: `facade/HospitalFacade.java`  
-  - Métodos: `start()`, `ingresarPaciente(...)`, `atenderSiguiente()`
+  - Métodos: `start()`, `ingresarPaciente()`, `atenderSiguiente()`
 
 ---
 
@@ -90,7 +90,4 @@ Este sistema busca digitalizar la atención, mostrar claramente en qué nivel es
 
 ## 🧪 Instrucciones de compilación y ejecución
 
-### 1. Compilar
 
-```bash
-javac -d bin $(find src -name "*.java")
