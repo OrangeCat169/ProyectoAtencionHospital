@@ -92,6 +92,6 @@ Este sistema busca digitalizar la atención, mostrar claramente en qué nivel es
 
 1.- Para una compilación mas simple recomiendo abrir el proyecto en un programa compilador, de recomendacion Visual Studio Code.
 
-2.- Abrir desde Visual Studio Code la carpeta BibliotecaDigitalPatrones.
+2.- Abrir desde Visual Studio Code la carpeta TrabajoPatrones.
 
 3.- Luego correr la clase app.java y utilizar el menu que aparecera en la consola.
